@@ -19,25 +19,25 @@ export default function Home() {
       <main className={styles.home}>
         <motion.div
           className={`${styles.overlay} ${styles.first}`}
-          initial={{}}
+          initial={{width: '100%',}}
           animate={{
-            height: 0,
+            width: 0,
           }}
           transition={{ duration: 0.4, delay: 0.2, ease: 'easeInOut' }}
         ></motion.div>
         <motion.div
           className={`${styles.overlay} ${styles.second}`}
-          initial={{}}
+          initial={{width: '100%',}}
           animate={{
-            height: 0,
+            width: 0,
           }}
           transition={{ duration: 0.4, delay: 0.4, ease: 'easeInOut' }}
         ></motion.div>
         <motion.div
           className={`${styles.overlay} ${styles.third}`}
-          initial={{}}
+          initial={{width: '100%',}}
           animate={{
-            height: 0,
+            width: 0,
           }}
           transition={{ duration: 0.4, delay: 0.6, ease: 'easeInOut' }}
         ></motion.div>
