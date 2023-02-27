@@ -1,0 +1,52 @@
+.bio {
+        margin: 5vh auto 5vh;
+        width: 70%;
+        min-height: 100vh;
+        position: relative;
+        z-index: 1;
+      
+        @media(min-width: 768px) {
+          width: 60%;
+      }
+
+      h2 {
+        margin: 2rem 0;
+        font-size: clamp(2rem, 5vw, 6rem);
+        letter-spacing: 2px;
+        color: white;
+      }
+
+      
+      h4 {
+        margin: 1rem 0;
+        font-size: clamp(1.4rem, 2vw, 3rem);
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+      img {
+        width: 60%;
+        height: auto;   
+        
+        @media(min-width: 768px) {
+          width: 40%;
+      }
+    }
+
+    p {
+        margin: 4rem auto 4rem;
+        padding: 0.25rem 0.5rem;
+        color: rgba(255, 255, 255, 0.987);
+        font-size: clamp(1rem, 1.5vw, 1.6rem);
+        font-weight: 100;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        text-shadow: 1px 1px black;
+        text-align: left;
+
+        :last-of-type {
+            margin-bottom: 10vh;
+        }
+    }
+}
